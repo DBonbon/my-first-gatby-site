@@ -1,14 +1,13 @@
 import * as React from 'react'
-import Layout from '../components/layout'
 
-const JustPage = () => {
+const AboutPage = () => {
   return (
-    <Layout pageTitle="About Me">
+    <div>
       <p>Hi there! I'm the proud creator of this site, which I built with Gatsby.</p>
-    </Layout>
+    </div>
   )
 }
 
 export const Head = () => <title>About Me</title>
 
-export default JustPage
+export default AboutPage

@@ -9,6 +9,6 @@ const IndexPage = () => {
   )
 }
 
-export const Head = () => <title>Home1 Page</title>
+export const Head = () => <title>Home Page</title>
 
 export default IndexPage
