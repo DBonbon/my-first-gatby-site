@@ -1,16 +1,14 @@
 import * as React from 'react'
-import { Link } from 'gatsby'
+import Layout from '../components/layout'
 
 const IndexPage = () => {
   return (
-    <main>
-      <h1>Welcome to my Gatsby site!</h1>
-      <Link to="/about/">About</Link>
+    <Layout pageTitle="Home Page">
       <p>I'm making this by following the Gatsby Tutorial.</p>
-    </main>
+    </Layout>
   )
 }
 
-export const Head = () => <title>Home Page</title>
+export const Head = () => <title>Home1 Page</title>
 
 export default IndexPage
