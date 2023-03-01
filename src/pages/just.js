@@ -9,6 +9,6 @@ const JustPage = () => {
   )
 }
 
-export const Head = () => <title>About Me</title>
+export const Head = () => <title>Abouts Me</title>
 
 export default JustPage
